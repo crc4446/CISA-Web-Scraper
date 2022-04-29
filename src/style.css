@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('assets/cyberbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+}
+.header-cont{
+    text-align: center;
+    color: #7bfac3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.header-cont > h1{
+    font-size: 5vh;
+}
+
+.header-cont > h2{
+    color: white;
+    font-size: 3vh;
+}
+
+#cisa-logo{
+    padding: 20px;
+}
+
+#feed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: white;
+    width: 100%;
+    margin: 50px 0px;
+
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px 0px;
+    background-color: #1b2e3de0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px  #7bfac3;
+    margin: 20px;
+    padding: 50px;
+    width: 70%;
+}
+
+.card > h2{
+    color: #7bfac3;
+    padding: 5px 0px;
+    border-radius: 10px;
+    
+}
+
+
+.card > p{
+    margin-top: 15px;
+    line-height: 1.5em;
+}
+
+.card > a{
+    padding-bottom: 50px;
+    border-bottom: 5px #3a4856 solid;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    color: #7bfac3;
+
+}
+
+footer{
+    color: #7bfac3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top,rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+footer > h2{
+    padding: 35px;
+    font-size: 1.5vh;
+}
